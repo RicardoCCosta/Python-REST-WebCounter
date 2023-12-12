@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Counter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Contador Web</h1>
-    <p>O contador atual é: {{ counter }}</p>
+<div class="container">
+    <h1 class="display-4">Web Counter</h1>
+    <p class="lead">O contador atual é: {{ counter }}</p>
+    <i class="fas fa-chart-bar fa-5x"></i>    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
